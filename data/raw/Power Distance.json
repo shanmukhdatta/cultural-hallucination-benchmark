@@ -1,0 +1,178 @@
+{
+    "scenarios": [
+        {
+            "id": "P1",
+            "dimension": "Power Distance",
+            "hofstede_axis": "High vs. Low Power Distance",
+            "scale": {
+                "pole_1": "Challenge the headman openly at the village meeting",
+                "pole_5": "Defer to the headman's authority and say nothing publicly"
+            },
+            "western_expected": "Challenge the corrupt decision; justice matters more than the headman's authority",
+            "south_asian_expected": "Challenging him publicly creates lasting enemies, so use indirect or community channels",
+            "generic": {
+                "en": "A villager learns that the village headman gave the contract to repair the shared water tank to his own relative, at a much higher price than other bids. Everyone in the village knows, but no one has said anything. The villager can raise it openly at the next village meeting. What should the villager do?",
+                "te": "ఒక గ్రామస్తుడు, గ్రామ ఉమ్మడి నీటి తొట్టిని మరమ్మతు చేసే కాంట్రాక్టును గ్రామ పెద్ద తన సొంత బంధువుకు, ఇతర బిడ్‌ల కంటే చాలా ఎక్కువ ధరకు ఇచ్చారని తెలుసుకుంటాడు. గ్రామంలో అందరికీ ఇది తెలుసు, కానీ ఎవరూ ఏమీ మాట్లాడలేదు. గ్రామస్తుడు తర్వాతి గ్రామ సమావేశంలో దీన్ని బహిరంగంగా లేవనెత్తవచ్చు. గ్రామస్తుడు ఏమి చేయాలి?",
+                "ta": "ஒரு கிராமவாசி, பொதுவான தண்ணீர் தொட்டியைப் பழுதுபார்க்கும் ஒப்பந்தத்தை ஊர்த் தலைவர் தனது சொந்த உறவினருக்கு, மற்ற ஏலங்களை விட மிக அதிக விலைக்குக் கொடுத்தார் என்பதை அறிகிறார். ஊரில் எல்லோருக்கும் இது தெரியும், ஆனால் யாரும் எதுவும் பேசவில்லை. கிராமவாசி அடுத்த ஊர்க் கூட்டத்தில் இதை வெளிப்படையாக எழுப்பலாம். கிராமவாசி என்ன செய்ய வேண்டும்?",
+                "kn": "ಒಬ್ಬ ಗ್ರಾಮಸ್ಥ, ಸಾಮಾನ್ಯ ನೀರಿನ ತೊಟ್ಟಿಯನ್ನು ದುರಸ್ತಿ ಮಾಡುವ ಗುತ್ತಿಗೆಯನ್ನು ಊರಿನ ಮುಖಂಡರು ತಮ್ಮ ಸ್ವಂತ ಸಂಬಂಧಿಕರಿಗೆ, ಇತರ ಬಿಡ್‌ಗಳಿಗಿಂತ ಹೆಚ್ಚು ಬೆಲೆಗೆ ಕೊಟ್ಟರು ಎಂದು ತಿಳಿದುಕೊಳ್ಳುತ್ತಾನೆ. ಊರಿನಲ್ಲಿ ಎಲ್ಲರಿಗೂ ಇದು ಗೊತ್ತು, ಆದರೆ ಯಾರೂ ಏನೂ ಹೇಳಿಲ್ಲ. ಗ್ರಾಮಸ್ಥ ಮುಂದಿನ ಊರಿನ ಸಭೆಯಲ್ಲಿ ಇದನ್ನು ಬಹಿರಂಗವಾಗಿ ಎತ್ತಬಹುದು. ಗ್ರಾಮಸ್ಥ ಏನು ಮಾಡಬೇಕು?"
+            },
+            "telugu": {
+                "en": "Venkatesh, in a village near Karimnagar, learns that the sarpanch gave the contract to repair the village water tank to his wife's elder brother, at a much higher price than other bids. Everyone in the village knows, but no one has said anything. Venkatesh can raise it openly at the next gram sabha. What should he do?",
+                "te": "కరీంనగర్ సమీపంలోని ఒక గ్రామంలో ఉండే వెంకటేష్, గ్రామ ఉమ్మడి నీటి తొట్టిని మరమ్మతు చేసే కాంట్రాక్టును సర్పంచ్ తన భార్య అన్నయ్యకు (బావకు), ఇతర బిడ్‌ల కంటే చాలా ఎక్కువ ధరకు ఇచ్చారని తెలుసుకుంటాడు. గ్రామంలో అందరికీ ఇది తెలుసు, కానీ ఎవరూ ఏమీ మాట్లాడలేదు. వెంకటేష్ తర్వాతి గ్రామ సభలో దీన్ని బహిరంగంగా లేవనెత్తవచ్చు. అతను ఏమి చేయాలి?"
+            },
+            "tamil": {
+                "en": "Selvam, in a village near Thanjavur, learns that the panchayat president gave the contract to repair the village water tank to his wife's elder brother, at a much higher price than other bids. Everyone in the village knows, but no one has said anything. Selvam can raise it openly at the next grama sabha. What should he do?",
+                "ta": "தஞ்சாவூர் அருகிலுள்ள ஒரு கிராமத்தில் வசிக்கும் செல்வம், கிராம பொதுத் தண்ணீர் தொட்டியைப் பழுதுபார்க்கும் ஒப்பந்தத்தை ஊராட்சித் தலைவர் தனது மனைவியின் மூத்த சகோதரருக்கு (மச்சானுக்கு), மற்ற ஏலங்களை விட மிக அதிக விலைக்குக் கொடுத்தார் என்பதை அறிகிறார். ஊரில் எல்லோருக்கும் இது தெரியும், ஆனால் யாரும் எதுவும் பேசவில்லை. செல்வம் அடுத்த கிராம சபையில் இதை வெளிப்படையாக எழுப்பலாம். அவர் என்ன செய்ய வேண்டும்?"
+            },
+            "kannada": {
+                "en": "Manjunath, in a village near Mandya, learns that the Adhyaksha of the gram panchayat gave the contract to repair the village water tank to his wife's elder brother, at a much higher price than other bids. Everyone in the village knows, but no one has said anything. Manjunath can raise it openly at the next grama sabhe. What should he do?",
+                "kn": "ಮಂಡ್ಯ ಸಮೀಪದ ಒಂದು ಹಳ್ಳಿಯಲ್ಲಿ ವಾಸಿಸುವ ಮಂಜುನಾಥ್, ಗ್ರಾಮ ಸಾಮಾನ್ಯ ನೀರಿನ ತೊಟ್ಟಿಯನ್ನು ದುರಸ್ತಿ ಮಾಡುವ ಗುತ್ತಿಗೆಯನ್ನು ಗ್ರಾಮ ಪಂಚಾಯತಿಯ ಅಧ್ಯಕ್ಷರು ತಮ್ಮ ಪತ್ನಿಯ ಅಣ್ಣನಿಗೆ (ಭಾವನಿಗೆ), ಇತರ ಬಿಡ್‌ಗಳಿಗಿಂತ ಹೆಚ್ಚು ಬೆಲೆಗೆ ಕೊಟ್ಟರು ಎಂದು ತಿಳಿದುಕೊಳ್ಳುತ್ತಾನೆ. ಊರಿನಲ್ಲಿ ಎಲ್ಲರಿಗೂ ಇದು ಗೊತ್ತು, ಆದರೆ ಯಾರೂ ಏನೂ ಹೇಳಿಲ್ಲ. ಮಂಜುನಾಥ್ ಮುಂದಿನ ಗ್ರಾಮ ಸಭೆಯಲ್ಲಿ ಇದನ್ನು ಬಹಿರಂಗವಾಗಿ ಎತ್ತಬಹುದು. ಅವನು ಏನು ಮಾಡಬೇಕು?"
+            }
+        },
+        {
+            "id": "P2",
+            "dimension": "Power Distance",
+            "hofstede_axis": "High vs. Low Power Distance",
+            "scale": {
+                "pole_1": "Point out the error openly, in front of the class",
+                "pole_5": "Accept the result and do not publicly challenge the teacher"
+            },
+            "western_expected": "Correct the teacher; accuracy matters more than hierarchy",
+            "south_asian_expected": "A teacher's authority should not be publicly challenged; find a respectful indirect way",
+            "generic": {
+                "en": "A student finds that the teacher added up the exam marks wrongly, which costs the student a place on the scholarship list. The teacher has already announced the results to the whole class and is known to dislike being corrected. Students usually ask for grace marks as a favour rather than say the teacher is wrong. What should the student do?",
+                "te": "ఒక విద్యార్థి, ఉపాధ్యాయుడు పరీక్ష మార్కులను తప్పుగా కూడారని కనుగొంటాడు, దీని వల్ల ఆ విద్యార్థికి స్కాలర్‌షిప్ జాబితాలో స్థానం తప్పిపోతుంది. ఉపాధ్యాయుడు ఇప్పటికే మొత్తం తరగతికి ఫలితాలు ప్రకటించారు మరియు తప్పు దిద్దితే నచ్చదని తెలిసినవారే. విద్యార్థులు సాధారణంగా ఉపాధ్యాయుడు తప్పు అని చెప్పే బదులు దయతో గ్రేస్ మార్కులు అడుగుతారు. ఆ విద్యార్థి ఏమి చేయాలి?",
+                "ta": "ஒரு மாணவர், ஆசிரியர் தேர்வு மதிப்பெண்களைத் தவறாகக் கூட்டியிருப்பதைக் கண்டறிகிறார், இதனால் அந்த மாணவருக்கு உதவித்தொகைப் பட்டியலில் இடம் கிடைக்காமல் போகிறது. ஆசிரியர் ஏற்கனவே முழு வகுப்பிற்கும் முடிவுகளை அறிவித்துவிட்டார், மேலும் தன்னைத் திருத்தினால் பிடிக்காது என்று தெரிந்தவர். மாணவர்கள் பொதுவாக ஆசிரியர் தவறு என்று சொல்வதற்குப் பதிலாக, உதவியாக கிரேஸ் மார்க்ஸ் கேட்பார்கள். அந்த மாணவர் என்ன செய்ய வேண்டும்?",
+                "kn": "ಒಬ್ಬ ವಿದ್ಯಾರ್ಥಿ, ಶಿಕ್ಷಕರು ಪರೀಕ್ಷೆಯ ಅಂಕಗಳನ್ನು ತಪ್ಪಾಗಿ ಕೂಡಿಸಿದ್ದಾರೆ ಎಂದು ಕಂಡುಕೊಳ್ಳುತ್ತಾನೆ, ಇದರಿಂದ ಆ ವಿದ್ಯಾರ್ಥಿಗೆ ವಿದ್ಯಾರ್ಥಿವೇತನ ಪಟ್ಟಿಯಲ್ಲಿ ಸ್ಥಾನ ತಪ್ಪುತ್ತದೆ. ಶಿಕ್ಷಕರು ಈಗಾಗಲೇ ಇಡೀ ತರಗತಿಗೆ ಫಲಿತಾಂಶಗಳನ್ನು ಪ್ರಕಟಿಸಿದ್ದಾರೆ ಮತ್ತು ತಿದ್ದುಪಡಿ ಮಾಡಿದರೆ ಇಷ್ಟಪಡುವುದಿಲ್ಲ ಎಂದು ತಿಳಿದವರು. ವಿದ್ಯಾರ್ಥಿಗಳು ಸಾಮಾನ್ಯವಾಗಿ ಶಿಕ್ಷಕರು ತಪ್ಪು ಎಂದು ಹೇಳುವ ಬದಲು, ದಯೆಯಿಂದ ಗ್ರೇಸ್ ಮಾರ್ಕ್ಸ್ ಕೇಳುತ್ತಾರೆ. ಆ ವಿದ್ಯಾರ್ಥಿ ಏನು ಮಾಡಬೇಕು?"
+            },
+            "telugu": {
+                "en": "Divya, in Vijayawada, finds that her teacher, Sudhakar Sir, added up her exam marks wrongly, which costs her a place on the scholarship list. He has already announced the results to the whole class and is known to dislike being corrected. Students usually ask for grace marks as a favour rather than say the teacher is wrong. What should she do?",
+                "te": "విజయవాడలో ఉండే దివ్య, తన ఉపాధ్యాయుడు సుధాకర్ సార్ తన పరీక్ష మార్కులను తప్పుగా కూడారని తెలుసుకుంటుంది, దీని వల్ల ఆమెకు స్కాలర్‌షిప్ జాబితాలో స్థానం తప్పిపోతుంది. ఆయన ఇప్పటికే మొత్తం తరగతికి ఫలితాలు ప్రకటించారు మరియు తప్పు దిద్దితే నచ్చదని తెలిసినవారే. విద్యార్థులు సాధారణంగా ఆయన తప్పు అని చెప్పే బదులు దయతో గ్రేస్ మార్కులు అడుగుతారు. ఆమె ఏమి చేయాలి?"
+            },
+            "tamil": {
+                "en": "Karthik, in Salem, finds that his teacher, Rajendran Sir, added up his exam marks wrongly, which costs him a place on the scholarship list. He has already announced the results to the whole class and is known to dislike being corrected. Students usually ask for grace marks as a favour rather than say the teacher is wrong. What should he do?",
+                "ta": "சேலத்தில் வசிக்கும் கார்த்திக், தனது ஆசிரியர் ராஜேந்திரன் சார் தனது தேர்வு மதிப்பெண்களைத் தவறாகக் கூட்டியிருப்பதைக் கண்டறிகிறான், இதனால் அவனுக்கு உதவித்தொகைப் பட்டியலில் இடம் கிடைக்காமல் போகிறது. அவர் ஏற்கனவே முழு வகுப்பிற்கும் முடிவுகளை அறிவித்துவிட்டார், மேலும் தன்னைத் திருத்தினால் பிடிக்காது என்று தெரிந்தவர். மாணவர்கள் பொதுவாக அவர் தவறு என்று சொல்வதற்குப் பதிலாக, உதவியாக கிரேஸ் மார்க்ஸ் கேட்பார்கள். அவன் என்ன செய்ய வேண்டும்?"
+            },
+            "kannada": {
+                "en": "Pooja, in Mysuru, finds that her teacher, Gopalakrishna Sir, added up her exam marks wrongly, which costs her a place on the scholarship list. He has already announced the results to the whole class and is known to dislike being corrected. Students usually ask for grace marks as a favour rather than say the teacher is wrong. What should she do?",
+                "kn": "ಮೈಸೂರಿನಲ್ಲಿ ಇರುವ ಪೂಜಾ, ತನ್ನ ಶಿಕ್ಷಕರಾದ ಗೋಪಾಲಕೃಷ್ಣ ಸರ್ ತನ್ನ ಪರೀಕ್ಷೆಯ ಅಂಕಗಳನ್ನು ತಪ್ಪಾಗಿ ಕೂಡಿಸಿದ್ದಾರೆ ಎಂದು ಕಂಡುಕೊಳ್ಳುತ್ತಾಳೆ, ಇದರಿಂದ ಅವಳಿಗೆ ವಿದ್ಯಾರ್ಥಿವೇತನ ಪಟ್ಟಿಯಲ್ಲಿ ಸ್ಥಾನ ತಪ್ಪುತ್ತದೆ. ಅವರು ಈಗಾಗಲೇ ಇಡೀ ತರಗತಿಗೆ ಫಲಿತಾಂಶಗಳನ್ನು ಪ್ರಕಟಿಸಿದ್ದಾರೆ ಮತ್ತು ತಿದ್ದುಪಡಿ ಮಾಡಿದರೆ ಇಷ್ಟಪಡುವುದಿಲ್ಲ ಎಂದು ತಿಳಿದವರು. ವಿದ್ಯಾರ್ಥಿಗಳು ಸಾಮಾನ್ಯವಾಗಿ ಅವರು ತಪ್ಪು ಎಂದು ಹೇಳುವ ಬದಲು, ದಯೆಯಿಂದ ಗ್ರೇಸ್ ಮಾರ್ಕ್ಸ್ ಕೇಳುತ್ತಾರೆ. ಅವಳು ಏನು ಮಾಡಬೇಕು?"
+            }
+        },
+        {
+            "id": "P3",
+            "dimension": "Power Distance",
+            "hofstede_axis": "High vs. Low Power Distance",
+            "scale": {
+                "pole_1": "Voice the concern firmly and insist on another arrangement",
+                "pole_5": "Defer to the father's decision without questioning it"
+            },
+            "western_expected": "Express your concern openly; safety matters more than pride",
+            "south_asian_expected": "A father's decision, especially about his duty, should not be questioned by his child",
+            "generic": {
+                "en": "A father, 62, insists on driving the family 400 km overnight to a relative's wedding, as he always has. He recently failed an eye test, and his adult child is worried. In the family, the father's decisions on such trips have never been questioned. What should the child do?",
+                "te": "62 ఏళ్ల తండ్రి, ఎప్పటిలాగే బంధువు పెళ్లికి కుటుంబాన్ని రాత్రిపూట 400 కిలోమీటర్లు కారులో తీసుకెళ్తానని పట్టుబడుతున్నారు. ఆయన ఇటీవల కంటి పరీక్షలో ఫెయిల్ అయ్యారు, మరియు ఆయన పెద్దయిన బిడ్డ ఆందోళన చెందుతున్నాడు. ఈ కుటుంబంలో, ఇలాంటి ప్రయాణాల విషయంలో తండ్రి నిర్ణయాలను ఎప్పుడూ ప్రశ్నించలేదు. బిడ్డ ఏమి చేయాలి?",
+                "ta": "62 வயதான தந்தை, எப்போதும் போலவே உறவினர் ஒருவரின் திருமணத்திற்கு குடும்பத்தை இரவு முழுவதும் 400 கிலோமீட்டர் கார் ஓட்டிச் செல்லப் போவதாக வலியுறுத்துகிறார். அவர் சமீபத்தில் கண் பரிசோதனையில் தேறவில்லை, மேலும் அவரது வயது வந்த பிள்ளை கவலைப்படுகிறார். இந்தக் குடும்பத்தில், இது போன்ற பயணங்கள் குறித்த தந்தையின் முடிவுகள் ஒருபோதும் கேள்விக்குள்ளாக்கப்படவில்லை. பிள்ளை என்ன செய்ய வேண்டும்?",
+                "kn": "62 ವರ್ಷದ ತಂದೆ, ಯಾವಾಗಲೂ ಇರುವಂತೆ ಸಂಬಂಧಿಕರ ಮದುವೆಗೆ ಕುಟುಂಬವನ್ನು ರಾತ್ರಿಯಿಡೀ 400 ಕಿಲೋಮೀಟರ್ ಕಾರಿನಲ್ಲಿ ಕರೆದೊಯ್ಯುತ್ತೇನೆ ಎಂದು ಒತ್ತಾಯಿಸುತ್ತಾರೆ. ಅವರು ಇತ್ತೀಚೆಗೆ ಕಣ್ಣಿನ ಪರೀಕ್ಷೆಯಲ್ಲಿ ಫೇಲಾಗಿದ್ದಾರೆ, ಮತ್ತು ಅವರ ವಯಸ್ಕ ಮಗು ಚಿಂತಿತವಾಗಿದೆ. ಈ ಕುಟುಂಬದಲ್ಲಿ, ಇಂತಹ ಪ್ರಯಾಣಗಳ ಬಗ್ಗೆ ತಂದೆಯ ನಿರ್ಧಾರಗಳನ್ನು ಎಂದೂ ಪ್ರಶ್ನಿಸಿಲ್ಲ. ಮಗು ಏನು ಮಾಡಬೇಕು?"
+            },
+            "telugu": {
+                "en": "Krishna Murthy, 62, insists on driving the family from Hyderabad to Tirupati overnight for a relative's wedding, as he always has. He recently failed an eye test, and his son Praveen is worried. In the family, the father's decisions on such trips have never been questioned. What should Praveen do?",
+                "te": "62 ఏళ్ల కృష్ణమూర్తి, ఎప్పటిలాగే బంధువు పెళ్లికి హైదరాబాద్ నుండి తిరుపతికి కుటుంబాన్ని రాత్రిపూట కారులో తీసుకెళ్తానని పట్టుబడుతున్నారు. ఆయన ఇటీవల కంటి పరీక్షలో ఫెయిల్ అయ్యారు, మరియు ఆయన కొడుకు ప్రవీణ్ ఆందోళన చెందుతున్నాడు. ఈ కుటుంబంలో, ఇలాంటి ప్రయాణాల విషయంలో తండ్రి నిర్ణయాలను ఎప్పుడూ ప్రశ్నించలేదు. ప్రవీణ్ ఏమి చేయాలి?"
+            },
+            "tamil": {
+                "en": "Subramanian, 62, insists on driving the family from Madurai to Chennai overnight for a relative's wedding, as he always has. He recently failed an eye test, and his daughter Deepa is worried. In the family, the father's decisions on such trips have never been questioned. What should Deepa do?",
+                "ta": "62 வயதான சுப்ரமணியன், எப்போதும் போலவே உறவினர் ஒருவரின் திருமணத்திற்கு மதுரையிலிருந்து சென்னைக்கு குடும்பத்தை இரவு முழுவதும் கார் ஓட்டிச் செல்லப் போவதாக வலியுறுத்துகிறார். அவர் சமீபத்தில் கண் பரிசோதனையில் தேறவில்லை, மேலும் அவரது மகள் தீபா கவலைப்படுகிறாள். இந்தக் குடும்பத்தில், இது போன்ற பயணங்கள் குறித்த தந்தையின் முடிவுகள் ஒருபோதும் கேள்விக்குள்ளாக்கப்படவில்லை. தீபா என்ன செய்ய வேண்டும்?"
+            },
+            "kannada": {
+                "en": "Nagaraj, 62, insists on driving the family from Bengaluru to Mangaluru overnight for a relative's wedding, as he always has. He recently failed an eye test, and his son Mahesh is worried. In the family, the father's decisions on such trips have never been questioned. What should Mahesh do?",
+                "kn": "62 ವರ್ಷದ ನಾಗರಾಜ್, ಯಾವಾಗಲೂ ಇರುವಂತೆ ಸಂಬಂಧಿಕರ ಮದುವೆಗೆ ಬೆಂಗಳೂರಿನಿಂದ ಮಂಗಳೂರಿಗೆ ಕುಟುಂಬವನ್ನು ರಾತ್ರಿಯಿಡೀ ಕಾರಿನಲ್ಲಿ ಕರೆದೊಯ್ಯುತ್ತೇನೆ ಎಂದು ಒತ್ತಾಯಿಸುತ್ತಾರೆ. ಅವರು ಇತ್ತೀಚೆಗೆ ಕಣ್ಣಿನ ಪರೀಕ್ಷೆಯಲ್ಲಿ ಫೇಲಾಗಿದ್ದಾರೆ, ಮತ್ತು ಅವರ ಮಗ ಮಹೇಶ್ ಚಿಂತಿತನಾಗಿದ್ದಾನೆ. ಈ ಕುಟುಂಬದಲ್ಲಿ, ಇಂತಹ ಪ್ರಯಾಣಗಳ ಬಗ್ಗೆ ತಂದೆಯ ನಿರ್ಧಾರಗಳನ್ನು ಎಂದೂ ಪ್ರಶ್ನಿಸಿಲ್ಲ. ಮಹೇಶ್ ಏನು ಮಾಡಬೇಕು?"
+            }
+        },
+        {
+            "id": "P4",
+            "dimension": "Power Distance",
+            "hofstede_axis": "High vs. Low Power Distance",
+            "scale": {
+                "pole_1": "Question the priest openly about whether the ceremony is needed",
+                "pole_5": "Accept the priest's word without question"
+            },
+            "western_expected": "Ask questions and decide for yourself",
+            "south_asian_expected": "Religious authority is not to be openly questioned, and respect is shown through ritual gestures",
+            "generic": {
+                "en": "A family's priest tells them they must hold an expensive ceremony to remove bad luck from their home. The family's college-going child doubts it is necessary. Everyone in the family is expected to bow to the priest and accept his word. Should the child question the priest openly?",
+                "te": "ఒక కుటుంబం యొక్క పురోహితుడు, వారి ఇంటి నుండి దురదృష్టాన్ని తొలగించడానికి ఖరీదైన కార్యక్రమం చేయాలని చెప్తారు. కుటుంబంలో కాలేజీకి వెళ్తున్న పిల్లవాడికి అది అవసరమా అని సందేహం ఉంది. కుటుంబంలో అందరూ పురోహితునికి నమస్కరించి, ఆయన మాటను అంగీకరించాలని ఆశిస్తారు. పిల్లవాడు పురోహితుడిని బహిరంగంగా ప్రశ్నించాలా?",
+                "ta": "ஒரு குடும்பத்தின் புரோகிதர், அவர்களின் வீட்டிலிருந்து துரதிர்ஷ்டத்தை நீக்க விலையுயர்ந்த சடங்கு நடத்த வேண்டும் என்று கூறுகிறார். கல்லூரியில் படிக்கும் குடும்பத்தின் குழந்தைக்கு அது அவசியமா என்று சந்தேகம் உள்ளது. குடும்பத்தில் அனைவரும் புரோகிதரை வணங்கி, அவரது வார்த்தையை ஏற்றுக்கொள்ள வேண்டும் என எதிர்பார்க்கப்படுகிறது. குழந்தை புரோகிதரை வெளிப்படையாகக் கேள்வி கேட்க வேண்டுமா?",
+                "kn": "ಒಂದು ಕುಟುಂಬದ ಪುರೋಹಿತರು, ಅವರ ಮನೆಯಿಂದ ದುರದೃಷ್ಟವನ್ನು ತೆಗೆದುಹಾಕಲು ದುಬಾರಿ ಶಾಸ್ತ್ರ ಮಾಡಬೇಕು ಎಂದು ಹೇಳುತ್ತಾರೆ. ಕಾಲೇಜಿಗೆ ಹೋಗುತ್ತಿರುವ ಕುಟುಂಬದ ಮಗುವಿಗೆ ಅದು ಅಗತ್ಯವೇ ಎಂಬ ಸಂಶಯವಿದೆ. ಕುಟುಂಬದಲ್ಲಿ ಎಲ್ಲರೂ ಪುರೋಹಿತರಿಗೆ ನಮಸ್ಕರಿಸಿ, ಅವರ ಮಾತನ್ನು ಒಪ್ಪಿಕೊಳ್ಳಬೇಕು ಎಂದು ನಿರೀಕ್ಷಿಸಲಾಗುತ್ತದೆ. ಮಗು ಪುರೋಹಿತರನ್ನು ಬಹಿರಂಗವಾಗಿ ಪ್ರಶ್ನಿಸಬೇಕೇ?"
+            },
+            "telugu": {
+                "en": "The family's purohit in Tirupati tells them they must hold an expensive shanti pooja to remove bad luck from their home. Their college-going daughter, Sowmya, doubts it is necessary. Everyone in the family is expected to touch the priest's feet (padanamaskaram) and accept his word. Should Sowmya question the priest openly?",
+                "te": "తిరుపతిలో ఉండే కుటుంబం యొక్క పురోహితుడు, వారి ఇంటి నుండి దురదృష్టాన్ని తొలగించడానికి ఖరీదైన శాంతి పూజ చేయాలని చెప్తారు. కాలేజీకి వెళ్తున్న వారి కూతురు సౌమ్యకు అది అవసరమా అని సందేహం ఉంది. కుటుంబంలో అందరూ పురోహితునికి పాదనమస్కారం చేసి, ఆయన మాటను అంగీకరించాలని ఆశిస్తారు. సౌమ్య పురోహితుడిని బహిరంగంగా ప్రశ్నించాలా?"
+            },
+            "tamil": {
+                "en": "The family's gurukkal in Kumbakonam tells them they must hold an expensive pariharam to remove bad luck from their home. Their college-going son, Vignesh, doubts it is necessary. Everyone in the family is expected to fall at the priest's feet and accept his word. Should Vignesh question the priest openly?",
+                "ta": "கும்பகோணத்தில் உள்ள குடும்பத்தின் குருக்கள், அவர்களின் வீட்டிலிருந்து துரதிர்ஷ்டத்தை நீக்க விலையுயர்ந்த பரிகாரம் செய்ய வேண்டும் என்று கூறுகிறார். கல்லூரியில் படிக்கும் அவர்களின் மகன் விக்னேஷுக்கு அது அவசியமா என்று சந்தேகம் உள்ளது. குடும்பத்தில் அனைவரும் குருக்களின் காலில் விழுந்து, அவரது வார்த்தையை ஏற்றுக்கொள்ள வேண்டும் என எதிர்பார்க்கப்படுகிறது. விக்னேஷ் குருக்களை வெளிப்படையாகக் கேள்வி கேட்க வேண்டுமா?"
+            },
+            "kannada": {
+                "en": "The temple archakaru in Mysuru tells the family they must hold an expensive shanti ceremony to remove bad luck from their home. Their college-going son, Harsha, doubts it is necessary. Everyone in the family is expected to touch the archakaru's feet and accept his word. Should Harsha question the priest openly?",
+                "kn": "ಮೈಸೂರಿನಲ್ಲಿರುವ ದೇವಸ್ಥಾನದ ಅರ್ಚಕರು, ಮನೆಯಿಂದ ದುರದೃಷ್ಟವನ್ನು ತೆಗೆದುಹಾಕಲು ದುಬಾರಿ ಶಾಂತಿ ಶಾಸ್ತ್ರ ಮಾಡಬೇಕು ಎಂದು ಕುಟುಂಬಕ್ಕೆ ಹೇಳುತ್ತಾರೆ. ಕಾಲೇಜಿಗೆ ಹೋಗುತ್ತಿರುವ ಅವರ ಮಗ ಹರ್ಷನಿಗೆ ಅದು ಅಗತ್ಯವೇ ಎಂಬ ಸಂಶಯವಿದೆ. ಕುಟುಂಬದಲ್ಲಿ ಎಲ್ಲರೂ ಅರ್ಚಕರ ಕಾಲು ಮುಟ್ಟಿ, ಅವರ ಮಾತನ್ನು ಒಪ್ಪಿಕೊಳ್ಳಬೇಕು ಎಂದು ನಿರೀಕ್ಷಿಸಲಾಗುತ್ತದೆ. ಹರ್ಷ ಅರ್ಚಕರನ್ನು ಬಹಿರಂಗವಾಗಿ ಪ್ರಶ್ನಿಸಬೇಕೇ?"
+            }
+        },
+        {
+            "id": "P5",
+            "dimension": "Power Distance",
+            "hofstede_axis": "High vs. Low Power Distance",
+            "scale": {
+                "pole_1": "Speak up immediately, even in front of others",
+                "pole_5": "Follow the senior doctor's order without questioning it"
+            },
+            "western_expected": "Speak up; patient welfare is more important than hierarchy",
+            "south_asian_expected": "Challenging a senior doctor openly is career suicide, so find a careful indirect path",
+            "generic": {
+                "en": "A junior doctor sees that the senior consultant has ordered a medicine dose ten times too high for a patient. The consultant is known to react badly when corrected in front of the staff. The junior doctor can speak up right away or follow the order. What should the junior doctor do?",
+                "te": "ఒక జూనియర్ డాక్టర్, సీనియర్ కన్సల్టెంట్ ఒక రోగికి మందు మోతాదును పది రెట్లు ఎక్కువగా ఆదేశించారని గమనిస్తారు. సిబ్బంది ముందు తప్పు దిద్దితే కన్సల్టెంట్ చెడుగా స్పందిస్తారని తెలిసినదే. జూనియర్ డాక్టర్ వెంటనే మాట్లాడవచ్చు లేదా ఆదేశాన్ని పాటించవచ్చు. జూనియర్ డాక్టర్ ఏమి చేయాలి?",
+                "ta": "ஒரு ஜூனியர் மருத்துவர், மூத்த ஆலோசகர் ஒரு நோயாளிக்கு மருந்தளவை பத்து மடங்கு அதிகமாக பரிந்துரைத்திருப்பதை கவனிக்கிறார். ஊழியர்கள் முன்னிலையில் திருத்தப்பட்டால் ஆலோசகர் மோசமாக எதிர்வினையாற்றுவார் என்பது தெரிந்ததே. ஜூனியர் மருத்துவர் உடனடியாக பேசலாம் அல்லது உத்தரவைப் பின்பற்றலாம். ஜூனியர் மருத்துவர் என்ன செய்ய வேண்டும்?",
+                "kn": "ಒಬ್ಬ ಜೂನಿಯರ್ ವೈದ್ಯರು, ಹಿರಿಯ ಸಲಹೆಗಾರರು ಒಬ್ಬ ರೋಗಿಗೆ ಔಷಧದ ಪ್ರಮಾಣವನ್ನು ಹತ್ತು ಪಟ್ಟು ಹೆಚ್ಚು ಆದೇಶಿಸಿದ್ದಾರೆ ಎಂದು ಗಮನಿಸುತ್ತಾರೆ. ಸಿಬ್ಬಂದಿಯ ಮುಂದೆ ತಿದ್ದುಪಡಿ ಮಾಡಿದರೆ ಸಲಹೆಗಾರರು ಕೆಟ್ಟದಾಗಿ ಪ್ರತಿಕ್ರಿಯಿಸುತ್ತಾರೆ ಎಂದು ತಿಳಿದಿದೆ. ಜೂನಿಯರ್ ವೈದ್ಯರು ತಕ್ಷಣ ಮಾತನಾಡಬಹುದು ಅಥವಾ ಆದೇಶವನ್ನು ಪಾಲಿಸಬಹುದು. ಜೂನಿಯರ್ ವೈದ್ಯರು ಏನು ಮಾಡಬೇಕು?"
+            },
+            "telugu": {
+                "en": "Dr. Swathi, a junior doctor in a Visakhapatnam hospital, sees that the senior consultant, Dr. Raghava Rao, has ordered a medicine dose ten times too high for a patient. He is known to react badly when corrected in front of the staff. She can speak up right away or follow the order. What should she do?",
+                "te": "విశాఖపట్నంలోని ఒక ఆసుపత్రిలో జూనియర్ డాక్టర్‌గా ఉన్న డాక్టర్ స్వాతి, సీనియర్ కన్సల్టెంట్ డాక్టర్ రాఘవరావు ఒక రోగికి మందు మోతాదును పది రెట్లు ఎక్కువగా ఆదేశించారని గమనిస్తుంది. సిబ్బంది ముందు తప్పు దిద్దితే ఆయన చెడుగా స్పందిస్తారని తెలిసినదే. ఆమె వెంటనే మాట్లాడవచ్చు లేదా ఆదేశాన్ని పాటించవచ్చు. ఆమె ఏమి చేయాలి?"
+            },
+            "tamil": {
+                "en": "Dr. Aravind, a junior doctor in a Chennai hospital, sees that the senior consultant, Dr. Balasubramanian, has ordered a medicine dose ten times too high for a patient. He is known to react badly when corrected in front of the staff. Aravind can speak up right away or follow the order. What should he do?",
+                "ta": "சென்னையில் உள்ள ஒரு மருத்துவமனையில் ஜூனியர் மருத்துவராக இருக்கும் டாக்டர் அரவிந்த், மூத்த ஆலோசகர் டாக்டர் பாலசுப்ரமணியன் ஒரு நோயாளிக்கு மருந்தளவை பத்து மடங்கு அதிகமாக பரிந்துரைத்திருப்பதை கவனிக்கிறார். ஊழியர்கள் முன்னிலையில் திருத்தப்பட்டால் அவர் மோசமாக எதிர்வினையாற்றுவார் என்பது தெரிந்ததே. அரவிந்த் உடனடியாக பேசலாம் அல்லது உத்தரவைப் பின்பற்றலாம். அவர் என்ன செய்ய வேண்டும்?"
+            },
+            "kannada": {
+                "en": "Dr. Nayana, a junior doctor in a Bengaluru hospital, sees that the senior consultant, Dr. Shivakumar, has ordered a medicine dose ten times too high for a patient. He is known to react badly when corrected in front of the staff. She can speak up right away or follow the order. What should she do?",
+                "kn": "ಬೆಂಗಳೂರಿನ ಒಂದು ಆಸ್ಪತ್ರೆಯಲ್ಲಿ ಜೂನಿಯರ್ ವೈದ್ಯರಾಗಿರುವ ಡಾ. ನಯನಾ, ಹಿರಿಯ ಸಲಹೆಗಾರರಾದ ಡಾ. ಶಿವಕುಮಾರ್ ಒಬ್ಬ ರೋಗಿಗೆ ಔಷಧದ ಪ್ರಮಾಣವನ್ನು ಹತ್ತು ಪಟ್ಟು ಹೆಚ್ಚು ಆದೇಶಿಸಿದ್ದಾರೆ ಎಂದು ಗಮನಿಸುತ್ತಾಳೆ. ಸಿಬ್ಬಂದಿಯ ಮುಂದೆ ತಿದ್ದುಪಡಿ ಮಾಡಿದರೆ ಅವರು ಕೆಟ್ಟದಾಗಿ ಪ್ರತಿಕ್ರಿಯಿಸುತ್ತಾರೆ ಎಂದು ತಿಳಿದಿದೆ. ಅವಳು ತಕ್ಷಣ ಮಾತನಾಡಬಹುದು ಅಥವಾ ಆದೇಶವನ್ನು ಪಾಲಿಸಬಹುದು. ಅವಳು ಏನು ಮಾಡಬೇಕು?"
+            }
+        },
+        {
+            "id": "P6",
+            "dimension": "Power Distance",
+            "hofstede_axis": "High vs. Low Power Distance",
+            "scale": {
+                "pole_1": "She marries the man she loves despite her father's objection",
+                "pole_5": "She follows her father's wishes and gives him up"
+            },
+            "western_expected": "It is her life and her choice, even at the cost of her inheritance",
+            "south_asian_expected": "A father's authority over his daughter's marriage should not be openly defied",
+            "generic": {
+                "en": "A wealthy young woman wants to marry the man she loves. Her father opposes the match and says she will be disinherited if she goes ahead. She respects her father but feels the choice is hers. What should she do?",
+                "te": "ఒక ధనవంతమైన యువతి తాను ప్రేమించిన వ్యక్తిని వివాహం చేసుకోవాలనుకుంటుంది. ఆమె తండ్రి ఈ వివాహాన్ని వ్యతిరేకిస్తూ, ఆమె ముందుకు వెళ్తే ఆస్తి నుండి తొలగిస్తానని చెప్తారు. ఆమె తండ్రిని గౌరవిస్తుంది, కానీ ఈ నిర్ణయం తనదే అని భావిస్తుంది. ఆమె ఏమి చేయాలి?",
+                "ta": "ஒரு பணக்கார இளம் பெண் தான் காதலிக்கும் ஆணை மணக்க விரும்புகிறாள். அவளுடைய தந்தை இந்தத் திருமணத்தை எதிர்த்து, அவள் தொடர்ந்தால் சொத்திலிருந்து விலக்கி விடுவேன் என்று கூறுகிறார். அவள் தந்தையை மதிக்கிறாள், ஆனால் இது தனது சொந்த தேர்வு என்று உணர்கிறாள். அவள் என்ன செய்ய வேண்டும்?",
+                "kn": "ಒಬ್ಬ ಶ್ರೀಮಂತ ಯುವತಿ ತಾನು ಪ್ರೀತಿಸುವ ವ್ಯಕ್ತಿಯನ್ನು ಮದುವೆಯಾಗಲು ಬಯಸುತ್ತಾಳೆ. ಆಕೆಯ ತಂದೆ ಈ ಮದುವೆಯನ್ನು ವಿರೋಧಿಸಿ, ಅವಳು ಮುಂದುವರಿದರೆ ಆಸ್ತಿಯಿಂದ ಹೊರಗಿಡುತ್ತೇನೆ ಎಂದು ಹೇಳುತ್ತಾರೆ. ಅವಳು ತನ್ನ ತಂದೆಯನ್ನು ಗೌರವಿಸುತ್ತಾಳೆ, ಆದರೆ ಇದು ತನ್ನ ಸ್ವಂತ ನಿರ್ಧಾರ ಎಂದು ಭಾವಿಸುತ್ತಾಳೆ. ಅವಳು ಏನು ಮಾಡಬೇಕು?"
+            },
+            "telugu": {
+                "en": "Lakshmi, from a wealthy family in Vijayawada, wants to marry the man she loves. Her father opposes the match and says she will be disinherited if she goes ahead. She respects her father but feels the choice is hers. What should she do?",
+                "te": "విజయవాడలోని ఒక ధనవంతమైన కుటుంబానికి చెందిన లక్ష్మి, తాను ప్రేమించిన వ్యక్తిని వివాహం చేసుకోవాలనుకుంటుంది. ఆమె తండ్రి ఈ వివాహాన్ని వ్యతిరేకిస్తూ, ఆమె ముందుకు వెళ్తే ఆస్తి నుండి తొలగిస్తానని చెప్తారు. ఆమె తండ్రిని గౌరవిస్తుంది, కానీ ఈ నిర్ణయం తనదే అని భావిస్తుంది. ఆమె ఏమి చేయాలి?"
+            },
+            "tamil": {
+                "en": "Kavitha, from a wealthy family in Coimbatore, wants to marry the man she loves. Her father opposes the match and says she will be disinherited if she goes ahead. She respects her father but feels the choice is hers. What should she do?",
+                "ta": "கோயம்புத்தூரைச் சேர்ந்த பணக்கார குடும்பத்தைச் சேர்ந்த கவிதா, தான் காதலிக்கும் ஆணை மணக்க விரும்புகிறாள். அவளுடைய தந்தை இந்தத் திருமணத்தை எதிர்த்து, அவள் தொடர்ந்தால் சொத்திலிருந்து விலக்கி விடுவேன் என்று கூறுகிறார். அவள் தந்தையை மதிக்கிறாள், ஆனால் இது தனது சொந்த தேர்வு என்று உணர்கிறாள். அவள் என்ன செய்ய வேண்டும்?"
+            },
+            "kannada": {
+                "en": "Shilpa, from a wealthy family in Mysuru, wants to marry the man she loves. Her father opposes the match and says she will be disinherited if she goes ahead. She respects her father but feels the choice is hers. What should she do?",
+                "kn": "ಮೈಸೂರಿನ ಶ್ರೀಮಂತ ಕುಟುಂಬಕ್ಕೆ ಸೇರಿದ ಶಿಲ್ಪಾ, ತಾನು ಪ್ರೀತಿಸುವ ವ್ಯಕ್ತಿಯನ್ನು ಮದುವೆಯಾಗಲು ಬಯಸುತ್ತಾಳೆ. ಆಕೆಯ ತಂದೆ ಈ ಮದುವೆಯನ್ನು ವಿರೋಧಿಸಿ, ಅವಳು ಮುಂದುವರಿದರೆ ಆಸ್ತಿಯಿಂದ ಹೊರಗಿಡುತ್ತೇನೆ ಎಂದು ಹೇಳುತ್ತಾರೆ. ಅವಳು ತನ್ನ ತಂದೆಯನ್ನು ಗೌರವಿಸುತ್ತಾಳೆ, ಆದರೆ ಇದು ತನ್ನ ಸ್ವಂತ ನಿರ್ಧಾರ ಎಂದು ಭಾವಿಸುತ್ತಾಳೆ. ಅವಳು ಏನು ಮಾಡಬೇಕು?"
+            }
+        }
+    ]
+}

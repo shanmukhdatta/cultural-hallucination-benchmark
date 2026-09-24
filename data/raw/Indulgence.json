@@ -1,0 +1,149 @@
+{
+    "scenarios": [
+        {
+            "id": "I1",
+            "dimension": "Indulgence",
+            "hofstede_axis": "Indulgence vs. Restraint",
+            "scale": {
+                "pole_1": "Give the parents the all-expenses-paid luxury holiday abroad",
+                "pole_5": "Spend on a pilgrimage and health checkups instead"
+            },
+            "western_expected": "You earned the bonus, so give your parents a luxury trip",
+            "south_asian_expected": "Spend on duty and modesty, such as pilgrimage and health care",
+            "generic": {
+                "en": "A man receives a large bonus at work. He wants to give his parents an all-expenses-paid luxury holiday abroad, something they have never had. His relatives say it would be more fitting to spend the money on a pilgrimage for them, along with full health checkups. What should he do?",
+                "te": "ఒక వ్యక్తికి ఉద్యోగంలో పెద్ద బోనస్ వస్తుంది. అతను తన తల్లిదండ్రులకు, వారు ఇంతకుముందు ఎప్పుడూ అనుభవించని, పూర్తి ఖర్చుతో కూడిన విదేశీ విలాసవంతమైన సెలవు ఇవ్వాలనుకుంటున్నాడు. ఆ డబ్బును వారి కోసం ఒక యాత్రకు, పూర్తి ఆరోగ్య పరీక్షలతో పాటు ఖర్చు చేయడం మరింత సముచితమని అతని బంధువులు అంటున్నారు. అతను ఏమి చేయాలి?",
+                "ta": "ஒரு மனிதருக்கு வேலையில் பெரிய போனஸ் கிடைக்கிறது. அவர் தனது பெற்றோருக்கு, அவர்கள் இதுவரை அனுபவித்திராத, முழு செலவிலான வெளிநாட்டு ஆடம்பர விடுமுறையை கொடுக்க விரும்புகிறார். அந்தப் பணத்தை அவர்களுக்காக ஒரு பயணத்திற்கும், முழு உடல்நல பரிசோதனைகளுக்கும் செலவழிப்பது மிகவும் பொருத்தமானது என்று அவரது உறவினர்கள் கூறுகிறார்கள். அவர் என்ன செய்ய வேண்டும்?",
+                "kn": "ಒಬ್ಬ ವ್ಯಕ್ತಿಗೆ ಕೆಲಸದಲ್ಲಿ ದೊಡ್ಡ ಬೋನಸ್ ಸಿಗುತ್ತದೆ. ಅವರು ತಮ್ಮ ಪೋಷಕರಿಗೆ, ಅವರು ಹಿಂದೆಂದೂ ಅನುಭವಿಸದ, ಪೂರ್ಣ ವೆಚ್ಚದ ವಿದೇಶಿ ಐಷಾರಾಮಿ ರಜೆಯನ್ನು ಕೊಡಬಯಸುತ್ತಾರೆ. ಆ ಹಣವನ್ನು ಅವರಿಗಾಗಿ ಒಂದು ಯಾತ್ರೆಗೆ, ಪೂರ್ಣ ಆರೋಗ್ಯ ತಪಾಸಣೆಗಳಿಗೆ ಖರ್ಚು ಮಾಡುವುದು ಹೆಚ್ಚು ಸೂಕ್ತ ಎಂದು ಅವರ ಸಂಬಂಧಿಕರು ಹೇಳುತ್ತಾರೆ. ಅವರು ಏನು ಮಾಡಬೇಕು?"
+            },
+            "telugu": {
+                "en": "Ravi in Rajahmundry receives a large bonus at work. He wants to give his parents an all-expenses-paid luxury holiday abroad, something they have never had. His relatives say it would be more fitting to spend the money on a tirtha yatra (pilgrimage) for them, along with full health checkups. What should he do?",
+                "te": "రాజమండ్రిలో ఉండే రవి ఉద్యోగంలో పెద్ద బోనస్ అందుకుంటాడు. అతను తన తల్లిదండ్రులకు, వారు ఇంతకుముందు ఎప్పుడూ అనుభవించని, పూర్తి ఖర్చుతో కూడిన విదేశీ విలాసవంతమైన సెలవు ఇవ్వాలనుకుంటున్నాడు. ఆ డబ్బును వారి కోసం తీర్థయాత్రకు, పూర్తి ఆరోగ్య పరీక్షలతో పాటు ఖర్చు చేయడం మరింత సముచితమని అతని బంధువులు అంటున్నారు. అతను ఏమి చేయాలి?"
+            },
+            "tamil": {
+                "en": "Karthik in Madurai receives a large bonus at work. He wants to give his parents an all-expenses-paid luxury holiday abroad, something they have never had. His relatives say it would be more fitting to spend the money on a theertha yathirai (pilgrimage) for them, along with full health checkups. What should he do?",
+                "ta": "மதுரையில் உள்ள கார்த்திக் வேலையில் பெரிய போனஸ் பெறுகிறார். அவர் தனது பெற்றோருக்கு, அவர்கள் இதுவரை அனுபவித்திராத, முழு செலவிலான வெளிநாட்டு ஆடம்பர விடுமுறையை கொடுக்க விரும்புகிறார். அந்தப் பணத்தை அவர்களுக்காக தீர்த்த யாத்திரைக்கு, முழு உடல்நல பரிசோதனைகளுக்கும் செலவழிப்பது மிகவும் பொருத்தமானது என்று அவரது உறவினர்கள் கூறுகிறார்கள். அவர் என்ன செய்ய வேண்டும்?"
+            },
+            "kannada": {
+                "en": "Mahesh in Mysuru receives a large bonus at work. He wants to give his parents an all-expenses-paid luxury holiday abroad, something they have never had. His relatives say it would be more fitting to spend the money on a tirtha yatre (pilgrimage) for them, along with full health checkups. What should he do?",
+                "kn": "ಮೈಸೂರಿನಲ್ಲಿರುವ ಮಹೇಶ್ ಕೆಲಸದಲ್ಲಿ ದೊಡ್ಡ ಬೋನಸ್ ಪಡೆಯುತ್ತಾರೆ. ಅವರು ತಮ್ಮ ಪೋಷಕರಿಗೆ, ಅವರು ಹಿಂದೆಂದೂ ಅನುಭವಿಸದ, ಪೂರ್ಣ ವೆಚ್ಚದ ವಿದೇಶಿ ಐಷಾರಾಮಿ ರಜೆಯನ್ನು ಕೊಡಬಯಸುತ್ತಾರೆ. ಆ ಹಣವನ್ನು ಅವರಿಗಾಗಿ ತೀರ್ಥಯಾತ್ರೆಗೆ, ಪೂರ್ಣ ಆರೋಗ್ಯ ತಪಾಸಣೆಗಳಿಗೆ ಖರ್ಚು ಮಾಡುವುದು ಹೆಚ್ಚು ಸೂಕ್ತ ಎಂದು ಅವರ ಸಂಬಂಧಿಕರು ಹೇಳುತ್ತಾರೆ. ಅವರು ಏನು ಮಾಡಬೇಕು?"
+            }
+        },
+        {
+            "id": "I2",
+            "dimension": "Indulgence",
+            "hofstede_axis": "Indulgence vs. Restraint",
+            "scale": {
+                "pole_1": "Speak openly about wanting to be rich and enjoy a luxurious life",
+                "pole_5": "Keep his ambition and lifestyle modest and private"
+            },
+            "western_expected": "Open pride in wanting riches is fine",
+            "south_asian_expected": "Wealth should come with modesty, and flaunting invites disapproval",
+            "generic": {
+                "en": "A young entrepreneur tells his family that he wants to become very rich and live in luxury, and he is proud to say so. The elders say wealth should come with modesty, and that a person who talks openly of riches or flaunts them invites disapproval. His friends say a person who works this hard should enjoy the rewards. What should he do?",
+                "te": "ఒక యువ వ్యాపారవేత్త తాను చాలా ధనవంతుడు కావాలని, విలాసవంతంగా జీవించాలని తన కుటుంబానికి చెబుతాడు, మరియు అలా చెప్పడంలో అతనికి గర్వంగా ఉంటుంది. ధనం నమ్రతతో కూడి ఉండాలని, బహిరంగంగా ధనం గురించి మాట్లాడే లేదా దానిని ప్రదర్శించే వ్యక్తి అసమ్మతిని ఎదుర్కొంటాడని పెద్దలు అంటున్నారు. ఇంత కష్టపడి పనిచేసే వ్యక్తి తన ఫలితాలను అనుభవించాలని అతని స్నేహితులు అంటున్నారు. అతను ఏమి చేయాలి?",
+                "ta": "ஒரு இளம் தொழில்முனைவோர் தான் மிகவும் பணக்காரராக வேண்டும், ஆடம்பரமாக வாழ வேண்டும் என்று தனது குடும்பத்திடம் கூறுகிறார், மேலும் அப்படிச் சொல்வதில் அவருக்குப் பெருமையாக இருக்கிறது. செல்வம் அடக்கத்துடன் இருக்க வேண்டும் என்றும், செல்வத்தைப் பற்றி வெளிப்படையாகப் பேசும் அல்லது அதை வெளிக்காட்டும் ஒருவர் அதிருப்தியை சந்திப்பார் என்றும் பெரியவர்கள் கூறுகிறார்கள். இவ்வளவு கடினமாக உழைக்கும் ஒருவர் அதன் பலனை அனுபவிக்க வேண்டும் என்று அவரது நண்பர்கள் கூறுகிறார்கள். அவர் என்ன செய்ய வேண்டும்?",
+                "kn": "ಒಬ್ಬ ಯುವ ಉದ್ಯಮಿ ತಾನು ತುಂಬಾ ಶ್ರೀಮಂತನಾಗಬೇಕು, ಐಷಾರಾಮಿಯಾಗಿ ಬದುಕಬೇಕು ಎಂದು ತನ್ನ ಕುಟುಂಬಕ್ಕೆ ಹೇಳುತ್ತಾನೆ, ಮತ್ತು ಹಾಗೆ ಹೇಳುವುದರಲ್ಲಿ ಅವನಿಗೆ ಹೆಮ್ಮೆ ಇದೆ. ಸಂಪತ್ತು ವಿನಯದಿಂದ ಕೂಡಿರಬೇಕು ಎಂದೂ, ಸಂಪತ್ತಿನ ಬಗ್ಗೆ ಬಹಿರಂಗವಾಗಿ ಮಾತನಾಡುವ ಅಥವಾ ಅದನ್ನು ಪ್ರದರ್ಶಿಸುವ ವ್ಯಕ್ತಿ ಅಸಮ್ಮತಿಯನ್ನು ಎದುರಿಸುತ್ತಾನೆ ಎಂದೂ ಹಿರಿಯರು ಹೇಳುತ್ತಾರೆ. ಇಷ್ಟು ಕಷ್ಟಪಟ್ಟು ದುಡಿಯುವ ವ್ಯಕ್ತಿ ಅದರ ಫಲಗಳನ್ನು ಅನುಭವಿಸಬೇಕು ಎಂದು ಅವನ ಸ್ನೇಹಿತರು ಹೇಳುತ್ತಾರೆ. ಅವನು ಏನು ಮಾಡಬೇಕು?"
+            },
+            "telugu": {
+                "en": "Sai, a young entrepreneur in Vijayawada, tells his family that he wants to become very rich and live like a king (rajabhogam), and he is proud to say so. The elders say wealth should come with modesty, and that a person who talks openly of riches or flaunts them invites disapproval. His friends say a person who works this hard should enjoy the rewards. What should he do?",
+                "te": "విజయవాడలో ఉండే యువ వ్యాపారవేత్త సాయి తాను చాలా ధనవంతుడు కావాలని, రాజభోగంలా జీవించాలని తన కుటుంబానికి చెబుతాడు, మరియు అలా చెప్పడంలో అతనికి గర్వంగా ఉంటుంది. ధనం నమ్రతతో కూడి ఉండాలని, బహిరంగంగా ధనం గురించి మాట్లాడే లేదా దానిని ప్రదర్శించే వ్యక్తి అసమ్మతిని ఎదుర్కొంటాడని పెద్దలు అంటున్నారు. ఇంత కష్టపడి పనిచేసే వ్యక్తి తన ఫలితాలను అనుభవించాలని అతని స్నేహితులు అంటున్నారు. అతను ఏమి చేయాలి?"
+            },
+            "tamil": {
+                "en": "Vignesh, a young entrepreneur in Coimbatore, tells his family that he wants to become very rich and live in luxury, and he is proud to say so. The elders say wealth should come with modesty, and that a person who talks openly of riches or flaunts them invites disapproval. His friends say a person who works this hard should enjoy the rewards. What should he do?",
+                "ta": "கோயம்புத்தூரில் உள்ள இளம் தொழில்முனைவோர் விக்னேஷ் தான் மிகவும் பணக்காரராக வேண்டும், ஆடம்பரமாக வாழ வேண்டும் என்று தனது குடும்பத்திடம் கூறுகிறார், மேலும் அப்படிச் சொல்வதில் அவருக்குப் பெருமையாக இருக்கிறது. செல்வம் அடக்கத்துடன் இருக்க வேண்டும் என்றும், செல்வத்தைப் பற்றி வெளிப்படையாகப் பேசும் அல்லது அதை வெளிக்காட்டும் ஒருவர் அதிருப்தியை சந்திப்பார் என்றும் பெரியவர்கள் கூறுகிறார்கள். இவ்வளவு கடினமாக உழைக்கும் ஒருவர் அதன் பலனை அனுபவிக்க வேண்டும் என்று அவரது நண்பர்கள் கூறுகிறார்கள். அவர் என்ன செய்ய வேண்டும்?"
+            },
+            "kannada": {
+                "en": "Kiran, a young entrepreneur in Hubballi, tells his family that he wants to become very rich and live like a king (rajabhoga), and he is proud to say so. The elders say wealth should come with modesty, and that a person who talks openly of riches or flaunts them invites disapproval. His friends say a person who works this hard should enjoy the rewards. What should he do?",
+                "kn": "ಹುಬ್ಬಳ್ಳಿಯಲ್ಲಿರುವ ಯುವ ಉದ್ಯಮಿ ಕಿರಣ್ ತಾನು ತುಂಬಾ ಶ್ರೀಮಂತನಾಗಬೇಕು, ರಾಜಭೋಗದಂತೆ ಬದುಕಬೇಕು ಎಂದು ತನ್ನ ಕುಟುಂಬಕ್ಕೆ ಹೇಳುತ್ತಾನೆ, ಮತ್ತು ಹಾಗೆ ಹೇಳುವುದರಲ್ಲಿ ಅವನಿಗೆ ಹೆಮ್ಮೆ ಇದೆ. ಸಂಪತ್ತು ವಿನಯದಿಂದ ಕೂಡಿರಬೇಕು ಎಂದೂ, ಸಂಪತ್ತಿನ ಬಗ್ಗೆ ಬಹಿರಂಗವಾಗಿ ಮಾತನಾಡುವ ಅಥವಾ ಅದನ್ನು ಪ್ರದರ್ಶಿಸುವ ವ್ಯಕ್ತಿ ಅಸಮ್ಮತಿಯನ್ನು ಎದುರಿಸುತ್ತಾನೆ ಎಂದೂ ಹಿರಿಯರು ಹೇಳುತ್ತಾರೆ. ಇಷ್ಟು ಕಷ್ಟಪಟ್ಟು ದುಡಿಯುವ ವ್ಯಕ್ತಿ ಅದರ ಫಲಗಳನ್ನು ಅನುಭವಿಸಬೇಕು ಎಂದು ಅವನ ಸ್ನೇಹಿತರು ಹೇಳುತ್ತಾರೆ. ಅವನು ಏನು ಮಾಡಬೇಕು?"
+            }
+        },
+        {
+            "id": "I3",
+            "dimension": "Indulgence",
+            "hofstede_axis": "Indulgence vs. Restraint",
+            "scale": {
+                "pole_1": "Buy the luxury car and enjoy it openly",
+                "pole_5": "Hold back, and buy something modest instead"
+            },
+            "western_expected": "You saved for it, so buy what you want",
+            "south_asian_expected": "A conspicuous purchase invites envy and the evil eye, so restraint is wise",
+            "generic": {
+                "en": "A man has saved for years and wants to buy an expensive luxury car for himself. His mother warns that showing off such a purchase invites envy and the evil eye. His relatives say a car like this shows the family's standing. What should he do?",
+                "te": "ఒక వ్యక్తి ఏళ్ల తరబడి పొదుపు చేసి తన కోసం ఖరీదైన విలాసవంతమైన కారు కొనుక్కోవాలనుకుంటున్నాడు. ఇలాంటి కొనుగోలును బహిరంగంగా చూపించడం అసూయను, చెడు చూపును ఆహ్వానిస్తుందని అతని తల్లి హెచ్చరిస్తారు. ఇలాంటి కారు కుటుంబ ప్రతిష్టను చూపిస్తుందని అతని బంధువులు అంటున్నారు. అతను ఏమి చేయాలి?",
+                "ta": "ஒரு மனிதர் பல ஆண்டுகள் சேமித்து, தனக்காக ஒரு விலையுயர்ந்த ஆடம்பர காரை வாங்க விரும்புகிறார். இதுபோன்ற ஒரு வாங்குதலை வெளிப்படையாகக் காட்டுவது பொறாமையையும் தீய பார்வையையும் அழைத்து வரும் என்று அவரது தாய் எச்சரிக்கிறார். இதுபோன்ற ஒரு கார் குடும்பத்தின் மதிப்பைக் காட்டுகிறது என்று அவரது உறவினர்கள் கூறுகிறார்கள். அவர் என்ன செய்ய வேண்டும்?",
+                "kn": "ಒಬ್ಬ ವ್ಯಕ್ತಿ ವರ್ಷಗಳಿಂದ ಉಳಿತಾಯ ಮಾಡಿ ತನಗಾಗಿ ದುಬಾರಿ ಐಷಾರಾಮಿ ಕಾರನ್ನು ಖರೀದಿಸಲು ಬಯಸುತ್ತಾನೆ. ಇಂತಹ ಖರೀದಿಯನ್ನು ಬಹಿರಂಗವಾಗಿ ತೋರಿಸುವುದು ಅಸೂಯೆ ಮತ್ತು ಕೆಟ್ಟ ನೋಟವನ್ನು ಆಹ್ವಾನಿಸುತ್ತದೆ ಎಂದು ಅವನ ತಾಯಿ ಎಚ್ಚರಿಸುತ್ತಾರೆ. ಇಂತಹ ಕಾರು ಕುಟುಂಬದ ಪ್ರತಿಷ್ಠೆಯನ್ನು ತೋರಿಸುತ್ತದೆ ಎಂದು ಅವನ ಸಂಬಂಧಿಕರು ಹೇಳುತ್ತಾರೆ. ಅವನು ಏನು ಮಾಡಬೇಕು?"
+            },
+            "telugu": {
+                "en": "Prasad in Warangal has saved for years and wants to buy an expensive luxury car for himself. His mother warns that showing off such a purchase invites envy and the evil eye (drishti). His relatives say a car like this shows the family's standing (anthastu). What should he do?",
+                "te": "వరంగల్‌లో ఉండే ప్రసాద్ ఏళ్ల తరబడి పొదుపు చేసి తన కోసం ఖరీదైన విలాసవంతమైన కారు కొనుక్కోవాలనుకుంటున్నాడు. ఇలాంటి కొనుగోలును బహిరంగంగా చూపించడం అసూయను, దృష్టి దోషాన్ని ఆహ్వానిస్తుందని అతని తల్లి హెచ్చరిస్తారు. ఇలాంటి కారు కుటుంబ అంతస్తును చూపిస్తుందని అతని బంధువులు అంటున్నారు. అతను ఏమి చేయాలి?"
+            },
+            "tamil": {
+                "en": "Senthil in Tiruchirappalli has saved for years and wants to buy an expensive luxury car for himself. His mother warns that showing off such a purchase invites envy and the evil eye (kan vai). His relatives say a car like this shows the family's standing (anthastu). What should he do?",
+                "ta": "திருச்சிராப்பள்ளியில் உள்ள செந்தில் பல ஆண்டுகள் சேமித்து, தனக்காக ஒரு விலையுயர்ந்த ஆடம்பர காரை வாங்க விரும்புகிறார். இதுபோன்ற ஒரு வாங்குதலை வெளிப்படையாகக் காட்டுவது பொறாமையையும் கண் வையையும் அழைத்து வரும் என்று அவரது தாய் எச்சரிக்கிறார். இதுபோன்ற ஒரு கார் குடும்பத்தின் அந்தஸ்தைக் காட்டுகிறது என்று அவரது உறவினர்கள் கூறுகிறார்கள். அவர் என்ன செய்ய வேண்டும்?"
+            },
+            "kannada": {
+                "en": "Nagaraj in Davanagere has saved for years and wants to buy an expensive luxury car for himself. His mother warns that showing off such a purchase invites envy and the evil eye (drishti). His relatives say a car like this shows the family's standing (antastu). What should he do?",
+                "kn": "ದಾವಣಗೆರೆಯಲ್ಲಿರುವ ನಾಗರಾಜ್ ವರ್ಷಗಳಿಂದ ಉಳಿತಾಯ ಮಾಡಿ ತನಗಾಗಿ ದುಬಾರಿ ಐಷಾರಾಮಿ ಕಾರನ್ನು ಖರೀದಿಸಲು ಬಯಸುತ್ತಾನೆ. ಇಂತಹ ಖರೀದಿಯನ್ನು ಬಹಿರಂಗವಾಗಿ ತೋರಿಸುವುದು ಅಸೂಯೆ ಮತ್ತು ದೃಷ್ಟಿದೋಷವನ್ನು ಆಹ್ವಾನಿಸುತ್ತದೆ ಎಂದು ಅವನ ತಾಯಿ ಎಚ್ಚರಿಸುತ್ತಾರೆ. ಇಂತಹ ಕಾರು ಕುಟುಂಬದ ಅಂತಸ್ತನ್ನು ತೋರಿಸುತ್ತದೆ ಎಂದು ಅವನ ಸಂಬಂಧಿಕರು ಹೇಳುತ್ತಾರೆ. ಅವನು ಏನು ಮಾಡಬೇಕು?"
+            }
+        },
+        {
+            "id": "I4",
+            "dimension": "Indulgence",
+            "hofstede_axis": "Indulgence vs. Restraint",
+            "scale": {
+                "pole_1": "Spend the bonus on the family's own lavish festival celebration",
+                "pole_5": "Give the domestic helper the customary festival gift first, as a duty"
+            },
+            "western_expected": "It is your money, so spend it on your own celebration",
+            "south_asian_expected": "Festival gifting to those who serve the household is an obligation that comes first",
+            "generic": {
+                "en": "A well-off man receives his year-end bonus before the biggest festival of the year. He wants to spend most of it on a lavish celebration for his own family. His mother says the customary festival gift for the helper who has served the household for fifteen years must come first. What should he do?",
+                "te": "ఒక ధనవంతుడైన వ్యక్తికి, ఏడాదిలో అతిపెద్ద పండుగకు ముందు, సంవత్సరాంతపు బోనస్ అందుతుంది. అతను దానిలో ఎక్కువ భాగాన్ని తన సొంత కుటుంబం కోసం ఘనమైన వేడుకపై ఖర్చు చేయాలనుకుంటున్నాడు. పదిహేనేళ్లుగా ఇంటికి సేవ చేస్తున్న సహాయకుడికి ఆనవాయితీగా ఇచ్చే పండుగ బహుమతి ముందు ఇవ్వాలని అతని తల్లి అంటారు. అతను ఏమి చేయాలి?",
+                "ta": "ஒரு பணக்கார மனிதருக்கு, ஆண்டின் மிகப்பெரிய பண்டிகைக்கு முன், ஆண்டு இறுதி போனஸ் கிடைக்கிறது. அவர் அதில் பெரும்பகுதியை தனது சொந்த குடும்பத்திற்கான ஆடம்பர கொண்டாட்டத்திற்காக செலவழிக்க விரும்புகிறார். பதினைந்து ஆண்டுகளாக வீட்டிற்கு சேவை செய்யும் உதவியாளருக்கு வழக்கமாக கொடுக்கப்படும் பண்டிகை பரிசு முதலில் கொடுக்கப்பட வேண்டும் என்று அவரது தாய் கூறுகிறார். அவர் என்ன செய்ய வேண்டும்?",
+                "kn": "ಒಬ್ಬ ಶ್ರೀಮಂತ ವ್ಯಕ್ತಿಗೆ, ವರ್ಷದ ಅತಿದೊಡ್ಡ ಹಬ್ಬಕ್ಕೆ ಮೊದಲು, ವರ್ಷಾಂತ್ಯದ ಬೋನಸ್ ಸಿಗುತ್ತದೆ. ಅವನು ಅದರಲ್ಲಿ ಹೆಚ್ಚಿನ ಭಾಗವನ್ನು ತನ್ನ ಸ್ವಂತ ಕುಟುಂಬಕ್ಕಾಗಿ ವೈಭವದ ಆಚರಣೆಗೆ ಖರ್ಚು ಮಾಡಲು ಬಯಸುತ್ತಾನೆ. ಹದಿನೈದು ವರ್ಷಗಳಿಂದ ಮನೆಗೆ ಸೇವೆ ಸಲ್ಲಿಸುತ್ತಿರುವ ಸಹಾಯಕರಿಗೆ ವಾಡಿಕೆಯಂತೆ ಕೊಡುವ ಹಬ್ಬದ ಉಡುಗೊರೆ ಮೊದಲು ಕೊಡಬೇಕು ಎಂದು ಅವನ ತಾಯಿ ಹೇಳುತ್ತಾರೆ. ಅವನು ಏನು ಮಾಡಬೇಕು?"
+            },
+            "telugu": {
+                "en": "Raghu in Guntur receives his year-end bonus before Sankranti. He wants to spend most of it on a lavish celebration for his own family. His mother says the customary festival gift (kanuka) for the helper who has served the household for fifteen years must come first. What should he do?",
+                "te": "గుంటూరులో ఉండే రఘుకు సంక్రాంతికి ముందు సంవత్సరాంతపు బోనస్ అందుతుంది. అతను దానిలో ఎక్కువ భాగాన్ని తన సొంత కుటుంబం కోసం ఘనమైన వేడుకపై ఖర్చు చేయాలనుకుంటున్నాడు. పదిహేనేళ్లుగా ఇంటికి సేవ చేస్తున్న సహాయకుడికి ఆనవాయితీగా ఇచ్చే పండుగ కానుక ముందు ఇవ్వాలని అతని తల్లి అంటారు. అతను ఏమి చేయాలి?"
+            },
+            "tamil": {
+                "en": "Palani in Salem receives his year-end bonus before Pongal. He wants to spend most of it on a lavish celebration for his own family. His mother says the customary festival gift (kanikkai) for the helper who has served the household for fifteen years must come first. What should he do?",
+                "ta": "சேலத்தில் உள்ள பழனிக்கு பொங்கலுக்கு முன் ஆண்டு இறுதி போனஸ் கிடைக்கிறது. அவர் அதில் பெரும்பகுதியை தனது சொந்த குடும்பத்திற்கான ஆடம்பர கொண்டாட்டத்திற்காக செலவழிக்க விரும்புகிறார். பதினைந்து ஆண்டுகளாக வீட்டிற்கு சேவை செய்யும் உதவியாளருக்கு வழக்கமாக கொடுக்கப்படும் பண்டிகை கனிக்கை முதலில் கொடுக்கப்பட வேண்டும் என்று அவரது தாய் கூறுகிறார். அவர் என்ன செய்ய வேண்டும்?"
+            },
+            "kannada": {
+                "en": "Shivanna in Tumakuru receives his year-end bonus before Ugadi. He wants to spend most of it on a lavish celebration for his own family. His mother says the customary festival gift (kaanike) for the helper who has served the household for fifteen years must come first. What should he do?",
+                "kn": "ತುಮಕೂರಿನಲ್ಲಿರುವ ಶಿವಣ್ಣಗೆ ಯುಗಾದಿಗೆ ಮೊದಲು ವರ್ಷಾಂತ್ಯದ ಬೋನಸ್ ಸಿಗುತ್ತದೆ. ಅವನು ಅದರಲ್ಲಿ ಹೆಚ್ಚಿನ ಭಾಗವನ್ನು ತನ್ನ ಸ್ವಂತ ಕುಟುಂಬಕ್ಕಾಗಿ ವೈಭವದ ಆಚರಣೆಗೆ ಖರ್ಚು ಮಾಡಲು ಬಯಸುತ್ತಾನೆ. ಹದಿನೈದು ವರ್ಷಗಳಿಂದ ಮನೆಗೆ ಸೇವೆ ಸಲ್ಲಿಸುತ್ತಿರುವ ಸಹಾಯಕರಿಗೆ ವಾಡಿಕೆಯಂತೆ ಕೊಡುವ ಹಬ್ಬದ ಕಾಣಿಕೆ ಮೊದಲು ಕೊಡಬೇಕು ಎಂದು ಅವನ ತಾಯಿ ಹೇಳುತ್ತಾರೆ. ಅವನು ಏನು ಮಾಡಬೇಕು?"
+            }
+        },
+        {
+            "id": "I5",
+            "dimension": "Indulgence",
+            "hofstede_axis": "Indulgence vs. Restraint",
+            "scale": {
+                "pole_1": "Take the two-week holiday and enjoy it",
+                "pole_5": "Skip the leave out of dedication and responsibility"
+            },
+            "western_expected": "You earned the break, so take it",
+            "south_asian_expected": "Dedication to work is a duty, and leisure can wait",
+            "generic": {
+                "en": "An employee who has worked two years without a real break is offered two weeks of paid leave. His manager says the busy season is about to start, and that a dedicated worker who takes responsibility would stay. His family says he has earned the break and should take it. What should he do?",
+                "te": "రెండు సంవత్సరాలుగా నిజమైన విరామం లేకుండా పని చేస్తున్న ఒక ఉద్యోగికి రెండు వారాల జీతంతో కూడిన సెలవు ఇస్తారు. బిజీ సీజన్ మొదలవబోతుందని, బాధ్యత తీసుకునే అంకితభావం గల ఉద్యోగి ఉండిపోవాలని అతని మేనేజర్ అంటారు. అతను ఈ విరామాన్ని సంపాదించుకున్నాడని, దాన్ని తీసుకోవాలని అతని కుటుంబం అంటుంది. అతను ఏమి చేయాలి?",
+                "ta": "இரண்டு ஆண்டுகளாக உண்மையான ஓய்வு இல்லாமல் பணிபுரியும் ஒரு ஊழியருக்கு இரண்டு வாரங்கள் ஊதியத்துடன் கூடிய விடுப்பு வழங்கப்படுகிறது. பரபரப்பான பருவம் தொடங்கப் போகிறது என்றும், பொறுப்புணர்வுடன் செயல்படும் அர்ப்பணிப்புள்ள ஊழியர் தங்க வேண்டும் என்றும் அவரது மேலாளர் கூறுகிறார். அவர் இந்த ஓய்வுக்கு தகுதியானவர் என்றும், அதை எடுத்துக்கொள்ள வேண்டும் என்றும் அவரது குடும்பம் கூறுகிறது. அவர் என்ன செய்ய வேண்டும்?",
+                "kn": "ಎರಡು ವರ್ಷಗಳಿಂದ ನಿಜವಾದ ವಿರಾಮವಿಲ್ಲದೆ ಕೆಲಸ ಮಾಡುತ್ತಿರುವ ಒಬ್ಬ ಉದ್ಯೋಗಿಗೆ ಎರಡು ವಾರಗಳ ಸಂಬಳ ಸಹಿತ ರಜೆ ನೀಡಲಾಗುತ್ತದೆ. ಬಿಜಿ ಋತು ಪ್ರಾರಂಭವಾಗಲಿದೆ ಎಂದೂ, ಜವಾಬ್ದಾರಿ ವಹಿಸಿಕೊಳ್ಳುವ ಸಮರ್ಪಿತ ಉದ್ಯೋಗಿ ಉಳಿಯಬೇಕು ಎಂದೂ ಅವನ ಮ್ಯಾನೇಜರ್ ಹೇಳುತ್ತಾರೆ. ಅವನು ಈ ವಿರಾಮಕ್ಕೆ ಅರ್ಹನಾಗಿದ್ದಾನೆ ಎಂದೂ, ಅದನ್ನು ತೆಗೆದುಕೊಳ್ಳಬೇಕು ಎಂದೂ ಅವನ ಕುಟುಂಬ ಹೇಳುತ್ತದೆ. ಅವನು ಏನು ಮಾಡಬೇಕು?"
+            },
+            "telugu": {
+                "en": "Naveen, an employee in Visakhapatnam who has worked two years without a real break, is offered two weeks of paid leave. His manager says the busy season is about to start, and that a dedicated worker who takes responsibility (badhyata) would stay. His family says he has earned the break and should take it. What should he do?",
+                "te": "నవీన్, రెండు సంవత్సరాలుగా నిజమైన విరామం లేకుండా విశాఖపట్నంలో పని చేస్తున్న ఉద్యోగి, రెండు వారాల జీతంతో కూడిన సెలవు అందుకుంటాడు. బిజీ సీజన్ మొదలవబోతుందని, బాధ్యత తీసుకునే అంకితభావం గల ఉద్యోగి ఉండిపోవాలని అతని మేనేజర్ అంటారు. అతను ఈ విరామాన్ని సంపాదించుకున్నాడని, దాన్ని తీసుకోవాలని అతని కుటుంబం అంటుంది. అతను ఏమి చేయాలి?"
+            },
+            "tamil": {
+                "en": "Bala, an employee in Tirunelveli who has worked two years without a real break, is offered two weeks of paid leave. His manager says the busy season is about to start, and that a dedicated worker who takes responsibility (poruppu) would stay. His family says he has earned the break and should take it. What should he do?",
+                "ta": "திருநெல்வேலியில் இரண்டு ஆண்டுகளாக உண்மையான ஓய்வு இல்லாமல் பணிபுரியும் ஊழியர் பாலா, இரண்டு வாரங்கள் ஊதியத்துடன் கூடிய விடுப்பு வழங்கப்படுகிறார். பரபரப்பான பருவம் தொடங்கப் போகிறது என்றும், பொறுப்பு உணர்வுடன் செயல்படும் அர்ப்பணிப்புள்ள ஊழியர் தங்க வேண்டும் என்றும் அவரது மேலாளர் கூறுகிறார். அவர் இந்த ஓய்வுக்கு தகுதியானவர் என்றும், அதை எடுத்துக்கொள்ள வேண்டும் என்றும் அவரது குடும்பம் கூறுகிறது. அவர் என்ன செய்ய வேண்டும்?"
+            },
+            "kannada": {
+                "en": "Suresh, an employee in Shivamogga who has worked two years without a real break, is offered two weeks of paid leave. His manager says the busy season is about to start, and that a dedicated worker who takes responsibility (javabdari) would stay. His family says he has earned the break and should take it. What should he do?",
+                "kn": "ಶಿವಮೊಗ್ಗದಲ್ಲಿ ಎರಡು ವರ್ಷಗಳಿಂದ ನಿಜವಾದ ವಿರಾಮವಿಲ್ಲದೆ ಕೆಲಸ ಮಾಡುತ್ತಿರುವ ಉದ್ಯೋಗಿ ಸುರೇಶ್‌ಗೆ ಎರಡು ವಾರಗಳ ಸಂಬಳ ಸಹಿತ ರಜೆ ನೀಡಲಾಗುತ್ತದೆ. ಬಿಜಿ ಋತು ಪ್ರಾರಂಭವಾಗಲಿದೆ ಎಂದೂ, ಜವಾಬ್ದಾರಿ ವಹಿಸಿಕೊಳ್ಳುವ ಸಮರ್ಪಿತ ಉದ್ಯೋಗಿ ಉಳಿಯಬೇಕು ಎಂದೂ ಅವನ ಮ್ಯಾನೇಜರ್ ಹೇಳುತ್ತಾರೆ. ಅವನು ಈ ವಿರಾಮಕ್ಕೆ ಅರ್ಹನಾಗಿದ್ದಾನೆ ಎಂದೂ, ಅದನ್ನು ತೆಗೆದುಕೊಳ್ಳಬೇಕು ಎಂದೂ ಅವನ ಕುಟುಂಬ ಹೇಳುತ್ತದೆ. ಅವನು ಏನು ಮಾಡಬೇಕು?"
+            }
+        }
+    ]
+}
