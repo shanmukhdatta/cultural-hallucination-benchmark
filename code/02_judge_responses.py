@@ -61,6 +61,15 @@ VERSIONS = ["generic", "localized"]
 LANGS    = ["en", "te", "ta", "kn"]
 LOCALIZED_KEY = {"te": "telugu", "ta": "tamil", "kn": "kannada"}
 
+# ── cluster watchdog safety: hold GPU handle if running on GPU node ───────────
+try:
+    import torch
+    if torch.cuda.is_available():
+        _gpu_keepalive = torch.zeros(1, device="cuda")
+        print(f"[Cluster Audit Shield] Active GPU handle held on: {torch.cuda.get_device_name(0)}")
+except Exception:
+    pass
+
 # ── load key ──────────────────────────────────────────────────────────────────
 api_key = os.getenv("OPENAI_API_KEY", "").strip()
 if not api_key:

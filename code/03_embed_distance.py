@@ -79,9 +79,11 @@ scenarios = sorted(set(r["scenario_id"] for r in usable))
 DRAVIDIAN_LANGS = ["te", "ta", "kn"]
 VERSIONS = ["generic", "localized"]
 
-print("Loading LaBSE model...")
-lm = SentenceTransformer("sentence-transformers/LaBSE")
-print("LaBSE loaded.")
+import torch
+device = "cuda" if torch.cuda.is_available() else "cpu"
+print(f"Loading LaBSE model on device: {device}...")
+lm = SentenceTransformer("sentence-transformers/LaBSE", device=device)
+print(f"LaBSE loaded successfully on {device}.")
 
 results = []
 
