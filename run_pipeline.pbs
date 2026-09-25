@@ -72,10 +72,10 @@ nvidia-smi -L || true
 echo "----------------------------------------------------------------------"
 
 # ------------------------------------------------------------------------------
-# 5. API Keys (Export in your shell before qsub, or enter here)
+# 5. API Keys (Export in your shell before qsub, or in ~/.bashrc)
 # ------------------------------------------------------------------------------
-export HF_TOKEN="${HF_TOKEN:-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}"
-export OPENAI_API_KEY="${OPENAI_API_KEY:-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}"
+export HF_TOKEN="${HF_TOKEN:-your_hf_token_here}"
+export OPENAI_API_KEY="${OPENAI_API_KEY:-your_openai_key_here}"
 
 # ------------------------------------------------------------------------------
 # 6. Step 1: Model Inference (H100 GPU Accelerated)
