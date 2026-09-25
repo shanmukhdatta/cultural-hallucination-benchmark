@@ -129,7 +129,8 @@ if args.models:
     PAPER_MODELS = [m for m in PAPER_MODELS if m["name"] in wanted]
 
 # ── token budget config — PLACEHOLDERS, see module docstring point 1 ──────────
-TOKENS_BY_LANG = {"en": 600, "te": 1500, "ta": 1800, "kn": 1500}  # <-- update from calibration
+# TOKENS_BY_LANG = {"en": 600, "te": 1500, "ta": 1800, "kn": 1500}  # <-- update from calibration
+TOKENS_BY_LANG = {"en": 500, "te": 2950, "ta": 2750, "kn": 2300} 
 MAX_RETRIES      = 3
 RETRY_MULTIPLIER = 1.5
 MAX_TOKENS_CAP   = 4096
