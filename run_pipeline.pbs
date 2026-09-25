@@ -1,0 +1,85 @@
+#!/bin/bash
+# ==============================================================================
+# PBS JOB SCRIPT: Cultural Value Drift (Dravidian Extension)
+# Designed strictly for single-job batch execution on HPC GPU compute node.
+# DO NOT RUN SCRIPTS ON THE LOGIN/HEAD NODE!
+# ==============================================================================
+
+#PBS -N dravidian_drift
+#PBS -l select=1:ncpus=8:mpiprocs=1:ngpus=1:mem=64gb
+#PBS -l walltime=06:00:00
+#PBS -j oe
+#PBS -o pbs_job_output.log
+
+# Stop immediately if any command fails
+set -e
+
+# ------------------------------------------------------------------------------
+# 1. Navigate to the job working directory (compute node)
+# ------------------------------------------------------------------------------
+cd "$PBS_O_WORKDIR"
+echo "Job started on host: $(hostname)"
+echo "Current directory  : $(pwd)"
+echo "Start time         : $(date)"
+echo "----------------------------------------------------------------------"
+
+# ------------------------------------------------------------------------------
+# 2. Storage & Cache Redirection (CRITICAL FOR CLUSTER HOME QUOTA)
+# Redirect Hugging Face cache to scratch to prevent filling up home directory quota.
+# ------------------------------------------------------------------------------
+export HF_HOME="${PBS_O_WORKDIR}/hf_cache"
+# If your cluster has a dedicated /scratch filesystem, prefer:
+# export HF_HOME="/scratch/${USER}/hf_cache"
+mkdir -p "$HF_HOME"
+echo "Hugging Face Cache : $HF_HOME"
+
+# ------------------------------------------------------------------------------
+# 3. Environment Variables (API Keys)
+# DO NOT COMMIT REAL KEYS TO GITHUB. Export them in your ~/.bashrc or set them here
+# ------------------------------------------------------------------------------
+export HF_TOKEN="${HF_TOKEN:-hf_your_token_here}"
+export OPENAI_API_KEY="${OPENAI_API_KEY:-sk-proj_your_key_here}"
+
+# ------------------------------------------------------------------------------
+# 4. Load Modules & Activate Environment
+# Modify module names / conda env name according to your college cluster setup.
+# ------------------------------------------------------------------------------
+# Example:
+# module load cuda/12.1
+# source ~/.bashrc
+# conda activate your_env_name
+
+echo "----------------------------------------------------------------------"
+echo "GPU Allocation Check:"
+nvidia-smi || echo "nvidia-smi not available or GPU not detected!"
+echo "----------------------------------------------------------------------"
+
+# ------------------------------------------------------------------------------
+# 5. Pipeline Step 1: Model Inference (5 models x 200 prompts = 1000 records)
+# Loads 1 model at a time into GPU VRAM, unloads cleanly.
+# ------------------------------------------------------------------------------
+echo ">>> STEP 1: Running Model Inference (code/01_run_inference.py) <<<"
+python code/01_run_inference.py
+echo ">>> STEP 1 COMPLETE: raw_responses.json created <<<"
+echo ""
+
+# ------------------------------------------------------------------------------
+# 6. Pipeline Step 2: GPT-4o Cultural Stance Scoring
+# ------------------------------------------------------------------------------
+echo ">>> STEP 2: Running Cultural Judge (code/02_judge_responses.py) <<<"
+python code/02_judge_responses.py
+echo ">>> STEP 2 COMPLETE: judge_scores.json created <<<"
+echo ""
+
+# ------------------------------------------------------------------------------
+# 7. Pipeline Step 3: LaBSE Multilingual Semantic Drift
+# ------------------------------------------------------------------------------
+echo ">>> STEP 3: Running Semantic Drift (code/03_embed_distance.py) <<<"
+python code/03_embed_distance.py
+echo ">>> STEP 3 COMPLETE: embed_distances.json created <<<"
+echo ""
+
+echo "======================================================================"
+echo "ALL PIPELINE STEPS FINISHED SUCCESSFULLY"
+echo "End time: $(date)"
+echo "======================================================================"
