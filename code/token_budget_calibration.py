@@ -20,11 +20,19 @@ calibration sample was silently skipped (no error, just 0 of them) —
 your token budgets would have been calibrated on generic-condition text
 only. Fixed to read `s["localized"][lkey]`.
 
+CHANGE APPLIED (fewer calibration samples): sampling now takes a total of
+--samples_per_lang prompts per language (default 2) instead of the old
+n_per_lang-per-condition scheme, so the total prompt count is
+samples_per_lang x 4 languages = 8 by default, instead of 21. For en,
+samples are generic-condition only (there's no separate localized-en
+condition). For te/ta/kn, samples alternate generic/localized condition.
+Nothing else about how each sample is generated or measured has changed.
+
 Usage:
     python token_budget_calibration.py \
         --bank_path data/scenario_bank.json \
         --model_id Qwen/Qwen2.5-7B-Instruct \
-        --n_per_lang 3 \
+        --samples_per_lang 2 \
         --generous_cap 3500
 
 Requires: transformers, torch, bitsandbytes, accelerate (same env as the
@@ -48,16 +56,17 @@ LANGS = ["en", "te", "ta", "kn"]
 LOCALIZED_KEY = {"te": "telugu", "ta": "tamil", "kn": "kannada"}
 
 
-def build_test_prompts(bank, n_per_lang):
+def build_test_prompts(bank, samples_per_lang):
     """
-    Pulls a small, dimension-varied sample: for each language, n_per_lang
-    generic-version prompts and n_per_lang localized-version prompts,
-    drawn from different Hofstede dimensions where possible.
+    Pulls a small, dimension-varied sample: for each language,
+    samples_per_lang prompts total (not per condition). English samples
+    are all generic-condition, each from a different Hofstede dimension.
+    For te/ta/kn, samples alternate generic/localized condition, each
+    from a different dimension where possible.
     """
     scenarios = bank["scenarios"]
     wrapper = bank.get("advisor_wrapper", {})
 
-    # Spread picks across dimensions rather than taking the first N scenarios.
     by_dim = {}
     for s in scenarios:
         by_dim.setdefault(s["dimension"], []).append(s)
@@ -65,13 +74,10 @@ def build_test_prompts(bank, n_per_lang):
 
     samples = []  # list of dicts: lang, condition, scenario_id, prompt_text
 
-    # English baseline (generic only, since localized EN exists per-language
-    # too, but generic EN is the shared baseline condition).
-    picked = []
-    for i in range(n_per_lang):
+    # English: samples_per_lang generic prompts, each from a different dim.
+    for i in range(samples_per_lang):
         dim = dims[i % len(dims)]
-        picked.append(by_dim[dim][i % len(by_dim[dim])])
-    for s in picked:
+        s = by_dim[dim][i % len(by_dim[dim])]
         text = s["generic"]["en"]
         wrap = wrapper.get("en", "")
         samples.append({
@@ -81,33 +87,30 @@ def build_test_prompts(bank, n_per_lang):
 
     for lang in ("te", "ta", "kn"):
         lkey = LOCALIZED_KEY[lang]
-        picked = []
-        for i in range(n_per_lang):
+        for i in range(samples_per_lang):
             dim = dims[i % len(dims)]
-            picked.append(by_dim[dim][i % len(by_dim[dim])])
+            s = by_dim[dim][i % len(by_dim[dim])]
+            condition = "generic" if i % 2 == 0 else "localized"
 
-        for s in picked:
-            # generic, native script
-            if lang in s.get("generic", {}):
+            if condition == "generic" and lang in s.get("generic", {}):
                 text = s["generic"][lang]
-                wrap = wrapper.get(lang, "")
-                samples.append({
-                    "lang": lang, "condition": "generic", "scenario_id": s["id"],
-                    "prompt": (wrap + "\n\n" + text) if wrap else text,
-                })
-            # localized, native script
-            # NOTE: fixed from the original draft, which checked `s[lkey]` --
-            # your actual scenario_bank nests localized versions one level
-            # deeper, under `s["localized"][lkey]`, not `s[lkey]` directly.
-            # The original code didn't error, it just silently produced zero
-            # localized calibration samples.
-            if "localized" in s and lkey in s["localized"] and lang in s["localized"][lkey]:
+            elif condition == "localized" and "localized" in s and lkey in s["localized"] and lang in s["localized"][lkey]:
                 text = s["localized"][lkey][lang]
-                wrap = wrapper.get(lang, "")
-                samples.append({
-                    "lang": lang, "condition": "localized", "scenario_id": s["id"],
-                    "prompt": (wrap + "\n\n" + text) if wrap else text,
-                })
+            else:
+                # Fall back to whichever condition IS available for this
+                # scenario/lang rather than silently dropping the sample.
+                if lang in s.get("generic", {}):
+                    condition, text = "generic", s["generic"][lang]
+                elif "localized" in s and lkey in s["localized"] and lang in s["localized"][lkey]:
+                    condition, text = "localized", s["localized"][lkey][lang]
+                else:
+                    continue  # truly nothing available for this lang/scenario
+
+            wrap = wrapper.get(lang, "")
+            samples.append({
+                "lang": lang, "condition": condition, "scenario_id": s["id"],
+                "prompt": (wrap + "\n\n" + text) if wrap else text,
+            })
 
     return samples
 
@@ -175,8 +178,10 @@ def main():
     ap.add_argument("--bank_path", required=True, help="Path to scenario_bank.json")
     ap.add_argument("--model_id", default="Qwen/Qwen2.5-7B-Instruct",
                      help="Small/fast model to pilot with — result should generalize across models")
-    ap.add_argument("--n_per_lang", type=int, default=3,
-                     help="Number of scenarios to sample per language per condition")
+    ap.add_argument("--samples_per_lang", type=int, default=2,
+                     help="Total number of calibration prompts per language "
+                          "(not per condition). Default 2 -> 8 prompts total "
+                          "across en/te/ta/kn (was 21 with the old n_per_lang scheme).")
     ap.add_argument("--generous_cap", type=int, default=3500,
                      help="Deliberately high cap so nothing truncates during calibration")
     ap.add_argument("--hf_token", default="", help="HF token if the pilot model is gated")
@@ -186,9 +191,9 @@ def main():
     with open(args.bank_path, encoding="utf-8") as f:
         bank = json.load(f)
 
-    samples = build_test_prompts(bank, args.n_per_lang)
+    samples = build_test_prompts(bank, args.samples_per_lang)
     print(f"Built {len(samples)} calibration prompts "
-          f"({args.n_per_lang} scenarios x language x condition, where applicable)")
+          f"({args.samples_per_lang} per language x 4 languages)")
     for s in samples:
         print(f"  lang={s['lang']:<3} condition={s['condition']:<9} scenario={s['scenario_id']}")
 
