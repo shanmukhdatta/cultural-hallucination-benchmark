@@ -41,10 +41,15 @@ scenario["scale"]["pole_5"] directly, per scenario, and the prompt template
 uses that exact text instead of a fixed western_pole/eastern_pole label.
 DIMENSION_POLES is removed — it's no longer used or needed.
 """
-import json, os, time
+import argparse, json, os, time
 from pathlib import Path
 from collections import defaultdict
 from openai import OpenAI
+
+ap = argparse.ArgumentParser(description="GPT-4o cultural stance scoring")
+ap.add_argument("--limit", type=int, default=None,
+                help="Only score the first N usable records (for sanity check / low-cost testing)")
+args = ap.parse_args()
 
 # ── paths ─────────────────────────────────────────────────────────────────────
 BASE        = Path(__file__).parent
@@ -121,16 +126,19 @@ else:
     print("Starting fresh — scoring all usable records")
 
 done_keys = {
-    (r["model"], r["scenario_id"], r["version"], r["lang"])
+    (r["model"], r["scenario_id"], r["version"], r["lang"], r.get("region"))
     for r in done_records
     if r.get("stance", -1) > 0
 }
 
 pending = [r for r in usable
-           if (r["model"], r["scenario_id"], r["version"], r["lang"]) not in done_keys]
+           if (r["model"], r["scenario_id"], r["version"], r["lang"], r.get("region")) not in done_keys]
 
 print(f"Already scored: {len(done_keys)}")
 print(f"Pending:        {len(pending)}")
+if args.limit:
+    pending = pending[:args.limit]
+    print(f"--limit applied: scoring {len(pending)} records only")
 print()
 
 # ── judge prompt — FIXED: scale definition now uses this scenario's own
@@ -215,6 +223,7 @@ for i, record in enumerate(pending):
         "dimension":        record["dimension"],
         "version":          ver,
         "lang":             lang,
+        "region":           record.get("region"),
         "script_ok":        record["script_ok"],
         "truncated":        record.get("truncated", False),
         "stance":           stance,
